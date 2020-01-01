@@ -1,0 +1,17 @@
+{
+  "name": "eth-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "generate": "npm run build && node dist/index.js"
+  },
+  "author": "Sarit Vakrat",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-wallet": "^0.6.3",
+    "typescript": "^3.7.4"
+  }
+}

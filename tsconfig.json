@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "target": "es2017",
+      "lib": [
+        "es2017"
+      ],
+      "noImplicitAny": false,
+      "sourceMap": true,
+      "inlineSources": true,
+      "outDir": "./dist",
+      "types" : [
+        "node"
+      ],
+      "typeRoots": [
+        "./typings",
+        "./node_modules/@types"
+      ]
+    },
+    "exclude":[
+      "node_modules",
+      "dist"
+    ],
+    "include": [
+      "index.ts"
+    ]
+  }  
